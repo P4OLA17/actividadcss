@@ -1,0 +1,41 @@
+
+.parrafos{color:black}
+.projos{color: #740a0f;}
+p.center{text-align: center;color: red;position: fixed;left: 50%; }
+.large{font-size: 36px;}
+#pcentrado{text-align: center;}
+#pizquierda{text-align: left;}
+#saludo{color: red;position: sticky;left: 400px 200px;}
+h1{color: darkcyan; border: 2px solid;margin: 50px 30px 100px 30px;padding: 10px;
+}
+h2{color: blueviolet;font-size: larger;position: fixed;left: 60px;}
+p{color: green;position: sticky;}
+h2, h5, .colornaranja{color: orangered;}
+.colorfondo{background-color: chartreuse;}
+a{display: block;}
+ol{list-style: none;text-align: center;}
+.exemple{
+    text-align: center; /*left, justify*/
+    text-decoration: underline; /*overline, line-through*/
+    text-transform: uppercase; /*lowercase, capitalize*/
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 2;
+  }
+.exemple2{font-family: "Helvetica", serif;font-style: normal; /*italic, oblique*/
+  font-size: 30px; /*2.5em*/font-weight: normal; /*bold*/}
+/* tots els <p> sota de <div> amb 
+classe "explanation" sota de <header> */
+header div.explanation p {
+    background-color: orange;}
+/*selectores combinados hijos*/   
+div.raya li {border-bottom: 2px solid orange;}
+img + p { font-size: larger;color: blueviolet; }
+img + p{font-size: xx-large;color: darkslategray;}
+button:hover {color: white;background-color: blue;} 
+/*button:active {
+    color: white;
+    background-color: orange;
+  }""*/
+#title{background-color: green;}.orange{background-color: orange;}
+div {background-color: blue;}
